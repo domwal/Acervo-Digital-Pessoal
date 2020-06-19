@@ -46,3 +46,25 @@ Go to <http://127.0.0.1/acervo-digital-pessoal>
 or Administration
 
 Go to <http://127.0.0.1/acervo-digital-pessoal/admin>
+
+### 8. Linux Server - pdftotex (optional)
+
+Install pdftotext under RedHat / RHEL / Fedora / CentOS Linux
+
+pdftotext is installed using poppler-utils package under various Linux distributions:
+```
+# yum install poppler-utils
+```
+
+OR use the following under Debian / Ubuntu Linux
+```
+$ sudo apt-get install poppler-utils
+```
+
+### 9. More screenshots
+
+![Admin Login Screen](./docs/screen-admin-login.jpg)
+
+![Admin Screen](./docs/screen-admin.jpg)
+
+![Admin Uploading Files](./docs/screen-add-pdf-files.jpg)
