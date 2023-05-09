@@ -1,0 +1,4 @@
+-- CRIAR BASE DE DADOS E USUARIO NO MySQL
+CREATE USER 'acervo_digital_pessoal'@'localhost' IDENTIFIED BY 'xxxXXxxxxXX';
+CREATE database acervo_digital_pessoal;
+GRANT ALL PRIVILEGES ON acervo_digital_pessoal.* TO 'acervo_digital_pessoal'@'localhost' WITH GRANT OPTION;
